@@ -5,6 +5,7 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
+import Stats from "./components/homepage/stats";
 
 // Force dynamic rendering to avoid SSR issues with client-side components
 export const dynamic = 'force-dynamic';
@@ -17,6 +18,7 @@ export default function Home() {
       <Experience />
       <Skills />
       <Projects />
+      <Stats />
       <Education />
       {/* <Blog blogs={blogs} /> */}
       <ContactSection />

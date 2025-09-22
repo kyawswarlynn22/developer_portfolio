@@ -9,9 +9,11 @@ export const personalData = {
   github: 'https://github.com/kyawswarlynn22',
   facebook: 'https://www.facebook.com/kyawswarlynn22/',
   linkedIn: 'https://www.linkedin.com/in/kyawswarlynn/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1X3mkXTCjZZAwwNURLrIxaxMjRRkoaX1b/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1ruG2qde5c6CIOytSII-pi4MbX08jy5Ry/view?usp=sharing",
+  // Stats for counters section
+  stats: {
+    completedProjects: 20,
+    yearsOfExperience: 3,
+    satisfiedClients: 18,
+  }
 }
