@@ -1,9 +1,15 @@
-// @flow strict
+"use client";
 
 import { skillsData } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
+import dynamic from 'next/dynamic';
+
+// Dynamically import Marquee to avoid SSR issues
+const Marquee = dynamic(() => import('react-fast-marquee'), {
+  ssr: false,
+  loading: () => <div className="w-full my-12 flex justify-center"><div className="text-white">Loading skills...</div></div>
+});
 
 function Skills() {
   return (
