@@ -19,6 +19,7 @@ export const skillsData = [
   'DigitalOcean',
   'Docker',
   'Filezilla',
+  'Adobe Experience Manager',
   'Figma',
   'Canva',
   'Nginx',

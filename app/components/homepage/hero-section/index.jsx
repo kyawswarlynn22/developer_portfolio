@@ -145,6 +145,8 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Filezilla</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Adobe Experience Manager</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Figma</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Canva</span>
